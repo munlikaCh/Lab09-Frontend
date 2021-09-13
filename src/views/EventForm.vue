@@ -58,13 +58,13 @@
 <script>
 import EventService from '@/services/EventService.js'
 //add 5.2
-import BaseInput from '@/components/BaseInput'
+// import BaseInput from '@/components/BaseInput' //del 5.2
 
 export default {
   inject: ['GStore'],
-  components: {
-    BaseInput
-  },
+  // components: {
+  //   BaseInput
+  // },
   data() {
     return {
       event: {
